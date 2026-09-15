@@ -1,0 +1,54 @@
+# OS-generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+build/
+cmake-build-*/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local SSH credentials must never be committed.
+gitnsu
+gitnsu.pub
+
+# Local clone of the course repository.
+25946-main/
